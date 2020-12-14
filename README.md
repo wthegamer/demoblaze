@@ -24,7 +24,7 @@ If you have trouble running the tests please reachout with any questions.
   5. Navigate to the cart, and verify that you have the correct phone model
   ```
 
-  There are two versions of the test. In the first test the ui was utilized to signup and login. In the second test network requests were used to create a user and login via setting a cookie. 
+  There are two versions of the test. Since there are two versions of the test I have purposefully left in some duplicated code. In the first test the ui was utilized to signup and login. In the second test network requests were used to create a user and login via setting a cookie. 
   In a normal testing environment, the second test is my more preferred path. By skipping the ui you are reducing the chances of the test failing before it reaches what you are actually wanting to test. In this case that is adding a phone to the cart. 
   An argument can be made for the first version of the test which illustrates a full user flow from signup to add to cart. Personally I lean toward adding specific tests for login, signup, and add to cart. 
   
